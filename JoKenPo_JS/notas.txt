@@ -1,0 +1,15 @@
+Para fazer o efeito das mãos posso usar a biblioteca jQuery UI
+
+$('div').effect('bounce', {times:3}, 500);
+não foi necessario....
+Deu para fazer com o animate() do jQuery.
+
+=-----------------------------------------------------------------
+ -- TODO
+- Após colocar os sons subir o código para o github.
+- data de inicio e termino do jogo. 
+
+=-----------------------------------------------------------------
+
+Iniciado em: 27/04/2015
+95% de termino no dia 05/05/2015

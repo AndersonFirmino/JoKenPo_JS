@@ -1,0 +1,132 @@
+
+
+/*css de alguns objetos do jogo*/
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+body{
+	font-family: 'Press Start 2P', cursive;
+
+}
+/*
+Area do jogo 
+*/
+#gameArea{
+	position: fixed;
+	box-shadow: 1px 2px 6px 1px #000;
+	margin: 150px 249px 331px;
+	border-radius: 11px;
+	height: 346px;
+	width: 1000px
+}
+/*
+configurações do span VS
+*/
+#vs{
+	position: fixed;
+	top: 280px;
+	margin-left: 400px;
+	font-size: 100px;
+}
+#PlayerChoice{
+	position: fixed;
+	box-shadow: 1px 2px 6px 1px #000;
+	border-radius: 11px;
+	top: 515px;
+	left: 510px;
+	height: 103px;
+	width: 493px;
+}
+/*
+Imagens que podem ser escolhidas 
+*/
+.selPapel{
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	top: 9px;
+	left: 245px;
+
+}
+.selPapel {
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	top: 9px;
+	left: 245px;
+	/*
+		Cursos pointer diz que um objeto é clicavel, logo ele mostra o dedo do mouse.
+		*/
+		cursor: pointer;
+		border: black 2px outset;
+
+	}
+	.selPedra{
+		position: absolute;
+		height: 80px;
+		width: 80px;
+		top: 9px;
+		left: 20px;
+		cursor: pointer;
+		border: black 2px outset;
+	}
+	.selTesoura{
+		position: absolute;
+		height: 80px;
+		width: 80px;
+		top: 9px;
+		left: 130px;
+		cursor: pointer;
+		border: black 2px outset;
+	}
+/*
+Posição das imagens do jogador e do computador
+*/
+#playerSprite{
+	position: fixed !important;
+	top: 200px;
+	left: 340px;
+}
+#computerSprite{
+	position: fixed !important;
+	top: 200px;
+	left: 969px;
+	
+}
+
+/*
+Borda que fica em cima da opção escolhida
+Sera evento click Javascript que ira chamar este CSS
+*/
+.selecionado{
+	border: solid red 2px;
+}
+
+#jogar{
+	position: absolute;
+	top: 24px;
+	left: 367px;
+	width: 102px;
+	height: 54px;
+	border-radius: 17px;
+	background: #45D242;
+	font-family: "Press Start 2P", cursive;
+}
+#placarPlayer{
+	position: relative !important;
+	bottom: -515px;
+	left: 269px;
+	font-size: 80px;
+	color: #F00;
+}
+#placarCpu{
+	position: relative !important;
+	bottom: -418px;
+	left: 1010px;
+	font-size: 80px;
+	color: #F00;
+}
+#vencedor{
+	position: absolute;
+	top: 44px;
+	left: 315px;
+	font-size: 40px;
+}

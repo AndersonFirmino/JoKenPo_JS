@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<title>Jo-Ken-Po JS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery-1.11.2.js"></script>
+	<script type="text/javascript" src="cpu.js"></script>
+	<script type="text/javascript" src="animacoes.js"></script>
+
+</head>
+
+<body>
+	<div id="vencedor"></div>
+	<div id="gameArea"><!--Aqui fica a area do jogo -->
+		
+		
+		<img src="img/pedraL.jpg" id="playerSprite">
+		<!--escolha do jogador aparece como uma imagem aqui -->
+		<span id="vs">VS</span>
+		
+		<img src="img/pedraR.jpg" id="computerSprite">
+		<!--escolha do computador -->
+	</div>
+	<div id="placarPlayer">0</div>
+	<div id="PlayerChoice"><!--Aqui é onde o jogador pode escolher por pedra papel ou tesoura -->
+		<img id="papel" src="img/papel(Up).jpg" class="selPapel" >
+		<img id="pedra" src="img/pedraUp.jpg"  class="selPedra">
+		<img id="tesoura" src="img/tesoura(Up).jpg" class="selTesoura">
+		<button id="jogar">Jogar</button>
+	</div>
+	<div id="placarCpu">0</div><!-- um placar contando os pontos do jogador contra os pontos do computador-->
+
+</body>
+</html>
